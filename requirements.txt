@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+google-auth
+google-cloud-storage
+google-cloud-documentai
+python-multipart
