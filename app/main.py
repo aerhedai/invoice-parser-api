@@ -1,6 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
-from config import get_credentials_from_info, get_documentai_client
-from parser import parse_invoice
+from .config import get_credentials_from_info, get_documentai_client
+from .parser import parse_invoice
 import json
 
 app = FastAPI()
